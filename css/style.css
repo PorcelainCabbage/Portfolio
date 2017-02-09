@@ -1,0 +1,65 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: rgb(74, 77, 04);
+}
+
+
+/*--------- REPEATED RULES ----------*/
+
+.text-thin {
+    font-weight: 100;
+}
+
+.text-norm {
+    font-weight: 300;
+}
+
+.text-fat {
+    font-weight: 500;
+}
+
+.grey-text {
+    color: #BCBBBB;
+}
+
+/*--------- SPECIFIC RULES ----------*/
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+h5 {
+    margin-top: 0px;
+    font-size: 22px;
+    text-transform: uppercase; 
+}
+
+hr {
+    border: none;
+    height: 2px;
+    color: #BCBBBB;
+    background-color: #BCBBBB;
+    width: 97.5%;
+}
+
+.project-link {
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+
+.project-link:hover,
+.project-link:active {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.title-logo {
+    padding-top: 25px;
+}
